@@ -12,7 +12,7 @@ function updateWord(element) {
     let newListItem = document.createElement('li')
     newListItem.innerText = usersWord
 
-    if(usersWord.length % 2 == 0) {
+    if(usersWord % 2 == 0) {
         evenList.appendChild(newListItem)
       } else {
         oddList.appendChild(newListItem)
